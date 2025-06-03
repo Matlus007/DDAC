@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Week3_MVCFlowerShop.Areas.Identity.Data;
+using Week3_MVCFlowerShop.Models;
 
 namespace Week3_MVCFlowerShop.Data;
 
@@ -11,6 +12,8 @@ public class Week3_MVCFlowerShopContext : IdentityDbContext<Week3_MVCFlowerShopU
         : base(options)
     {
     }
+
+    public DbSet<Flower> FlowerTable { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
