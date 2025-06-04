@@ -25,6 +25,37 @@ namespace Week3_MVCFlowerShop.Controllers
             return View();
         }
 
+        public async Task<IActionResult> EditData(int? FlowerID)
+        {
+            if (FlowerID == null)
+            {
+                return NotFound();
+            }
+            var flower = await _context.FlowerTable.FindAsync(FlowerID);
+            if (flower == null)
+            {
+                return BadRequest(FlowerID + " is not found in the table!");
+            }
+            return View(flower);
+        }
+
+        //delete data from the page
+        public async Task<IActionResult> DeleteData(int? FlowerID)
+        {
+            if (FlowerID == null)
+            {
+                return NotFound();
+            }
+            var flower = await _context.FlowerTable.FindAsync(FlowerID);
+            if (flower == null)
+            {
+                return BadRequest(FlowerID + " is not found in the list!");
+            }
+            _context.FlowerTable.Remove(flower);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index", "Flowers");
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddData(Flower flower)
@@ -36,6 +67,26 @@ namespace Week3_MVCFlowerShop.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(flower);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateData(Flower flower)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _context.FlowerTable.Update(flower);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index", "Flowers");
+                }
+                return View("EditData", flower);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error: " + ex.Message);
+            }
         }
     }
 }
