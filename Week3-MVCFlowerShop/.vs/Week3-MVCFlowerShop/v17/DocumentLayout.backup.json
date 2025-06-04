@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|c:\\users\\user\\desktop\\code\\ddac\\week3-mvcflowershop\\views\\flowers\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|solutionrelative:views\\flowers\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|c:\\users\\user\\desktop\\code\\ddac\\week3-mvcflowershop\\controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|solutionrelative:controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,15 +15,11 @@
       "RelativeMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|solutionrelative:views\\flowers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Week3_MVCFlowerShop/True/SqlTable/dbo.FlowerTable.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|c:\\users\\user\\desktop\\code\\ddac\\week3-mvcflowershop\\views\\flowers\\adddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|solutionrelative:views\\flowers\\adddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|c:\\users\\user\\desktop\\code\\ddac\\week3-mvcflowershop\\views\\flowers\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|solutionrelative:views\\flowers\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Week3_MVCFlowerShop/True/SqlTable/dbo.FlowerTable.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{227B3831-17EE-4DB9-B1DD-368E3E970990}|Week3-MVCFlowerShop.csproj|c:\\users\\user\\desktop\\code\\ddac\\week3-mvcflowershop\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,23 +49,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "dbo.FlowerTable [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Week3_MVCFlowerShop/True/SqlTable/dbo.FlowerTable.sql",
               "ToolTip": "dbo.FlowerTable [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-04T08:05:50.447Z",
+              "WhenOpened": "2025-06-04T08:24:56.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EditData.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Views\\Flowers\\EditData.cshtml",
               "RelativeDocumentMoniker": "Views\\Flowers\\EditData.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Views\\Flowers\\EditData.cshtml",
               "RelativeToolTip": "Views\\Flowers\\EditData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-04T07:58:56.691Z",
               "EditorCaption": ""
@@ -80,12 +80,11 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:57:18.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:57:18.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AddData.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Views\\Flowers\\AddData.cshtml",
               "RelativeDocumentMoniker": "Views\\Flowers\\AddData.cshtml",
@@ -93,31 +92,30 @@
               "RelativeToolTip": "Views\\Flowers\\AddData.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:51:20.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:51:20.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Views\\Flowers\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Flowers\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Views\\Flowers\\Index.cshtml",
               "RelativeToolTip": "Views\\Flowers\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-03T13:48:31.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FlowersController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Controllers\\FlowersController.cs",
               "RelativeDocumentMoniker": "Controllers\\FlowersController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\code\\DDAC\\Week3-MVCFlowerShop\\Controllers\\FlowersController.cs",
               "RelativeToolTip": "Controllers\\FlowersController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwFIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T13:47:14.344Z",
               "EditorCaption": ""

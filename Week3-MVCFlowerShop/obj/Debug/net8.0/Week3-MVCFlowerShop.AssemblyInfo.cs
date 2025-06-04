@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Week3-MVCFlowerShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b214c651c854b1c72aa89ab6d8f880cbe7ace79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3ac5bc3ebd474b3a3485243572fc8b20773c727")]
 [assembly: System.Reflection.AssemblyProductAttribute("Week3-MVCFlowerShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Week3-MVCFlowerShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

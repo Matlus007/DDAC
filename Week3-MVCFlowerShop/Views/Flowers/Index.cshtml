@@ -10,18 +10,26 @@
 			<th>Update Action</th>
 			<th>Delete Action</th>
 		</tr>
-		@foreach (var item in Model)
+		@if (Model.Count != 0)
+		{
+			foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.FlowerID</td>
+					<td>@item.FlowerName</td>
+					<td>@item.FlowerType</td>
+					<td>@item.FlowerProducedDate</td>
+					<td>@item.FlowerPrice</td>
+					<form asp-action="DeleteData" asp-controller="Flowers" asp-route-FlowerId="@item.FlowerID">
+						<td><button>Delete</button></td>
+						<td><button asp-action="EditData" asp-controller="Flowers" asp-route-FlowerId="@item.FlowerID">Edit</button></td>
+					</form>
+				</tr>
+			}
+		} else
 		{
 			<tr>
-				<td>@item.FlowerID</td>
-				<td>@item.FlowerName</td>
-				<td>@item.FlowerType</td>
-				<td>@item.FlowerProducedDate</td>
-				<td>@item.FlowerPrice</td>
-				<form asp-action="DeleteData" asp-controller="Flowers" asp-route-FlowerId="@item.FlowerID">
-				<td><button>Delete</button></td>
-				<td><button asp-action="EditData" asp-controller="Flowers" asp-route-FlowerId="@item.FlowerID">Edit</button></td>
-				</form>
+				<td colspan="7">No Data Found</td>
 			</tr>
 		}
 	</table>
